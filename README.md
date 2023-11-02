@@ -41,8 +41,9 @@ On your local computer :
 1. Generate the project from the template by running the following command with a command prompt or terminal from the clone repository location :
 
     ```bash
-    cookiecutter https://github.com/EPFL-ENAC/enac-it4r-repo-python
+    cookiecutter https://github.com/regislon/python_template
     ```
+    
  1. Provide input values: Cookiecutter will prompt you for input values to customize the generated project. The template may define variables or placeholders that need to be filled in. Answer the prompts with the desired values to configure your project.
 
 1. Generate the project: After providing all the necessary input values, Cookiecutter will generate the project based on the template. It will create a new directory with the generated project structure and files.
