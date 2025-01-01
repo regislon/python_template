@@ -17,5 +17,9 @@
         "no",
         "yes, with readthedocs",
         "yes, with GitHub Pages site with Jekyll"
+    ],
+    "create_github_action": [
+        "yes",
+        "no"
     ]
 }

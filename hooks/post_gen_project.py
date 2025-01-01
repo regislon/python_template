@@ -35,3 +35,9 @@ if not create_jupyter_notebook:
     # remove top-level file inside the generated folder
     path_folder = os.path.join(os.getcwd(),'{{cookiecutter.project_slug}}','notebooks')
     remove(path_folder)
+
+
+value_create_doc = '{{cookiecutter.create_github_action}}'
+
+if value_create_doc == 'no':
+    remove('.github')
