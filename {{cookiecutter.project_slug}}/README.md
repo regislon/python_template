@@ -5,23 +5,22 @@
 # {{cookiecutter.project_slug}}
 
 
-
-
 **What is included on this project?**
 
 📦 A basic `pyproject.toml` file to provide installation, packaging and distribution for your project.
 
 🧪 Testing structure using [Pytest](https://docs.pytest.org/en/latest/).
 
-✅ Code linter [Ruff](https://github.com/charliermarsh/ruff).
-
-✏️ Code formatter using [Black](https://github.com/psf/black).
+✅ Code linter and code formatter [Ruff](https://github.com/charliermarsh/ruff).
 
 🤝 Typing checking using [Mypy](https://mypy.readthedocs.io/en/stable/).
 
 🔄 Continuous integration using [Github Actions](https://github.com/{{cookiecutter.github_repo_name}}/blob/main/.github/workflows) with jobs to check the quality of your code.
 
 📃 Documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) and [Readthedocs](https://readthedocs.org/).
+
+
+
 
 
 
