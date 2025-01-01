@@ -20,6 +20,39 @@
 📃 Documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) and [Readthedocs](https://readthedocs.org/).
 
 
+## How to use this project ?
+
+We use UV to manage the project virtual environment. UV is a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv. See the [official documentation](https://docs.astral.sh/uv/getting-started/installation/) for installation on your machine. 
+
+
+Once installed, just run the following command to create the virtual environment and install the project dependencies:
+
+
+```bash
+uv sync 
+```
+
+or 
+
+```bash
+uv sync --dev
+```
+
+Quality control tools can be run as follows:
+
+```bash
+uvx ruff
+```
+
+```bash
+uvx mypy
+```
+
+```bash
+uv run pytest
+```
+
+
 
 
 

@@ -26,7 +26,24 @@ dependencies = [
 	{% if cookiecutter.create_jupyter_notebook == "yes"  %}"jupyter"{% endif %}
 ]
 
+# Development dependencies for UV
+[dependency-groups]
+dev = [
+	"pre-commit",
+	"pytest",
+	"pytest-cov",
+	"pytest-mock",
+	"ruff",
+	"mypy",
+	"sphinx",
+	"sphinx_rtd_theme",
+	"nbsphinx",
+	"sphinx-pyproject",
+	"sphinx-mdinclude"
+	]
 
+
+# Development dependencies for Poetry or pipenv
 [project.optional-dependencies]
 dev = [
 	"pre-commit",
