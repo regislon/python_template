@@ -31,7 +31,7 @@ _Before submitting your contribution, please make sure to take a moment and read
 5. Merge pull-request
 
    - To avoid merge commit like this:
-     'Merge pull request #3 from EPFL-ENAC/2-bug-remove-ecoinvent-embodied-data
+     'Merge pull request #3 from ...
    - Replace the github automatic merge commit message by the a conventional-changelog valid commit message usually a simple copy/paste from the pull-request title is enough
    - see this [blog post](https://mokacoding.com/blog/better-merging-for-github-pull-requests/) for an example
 
@@ -104,15 +104,7 @@ We use github to host code, to track issues and feature requests, as well as acc
 - Avoid writing comment like "done" of "fixed" on each code review comment. Reviewers assume you’ll do all suggested changes, unless you have a reason not to do some of them.
 - Sometimes it’s okay to postpone changes — in this case you’ll need to add a ticket number to the pull request and to the code itself.
 
-## Development Setup
 
-You will need [Node.js](http://nodejs.org) **lts** and [npm](https://pnpm.io/). And also Gnu Make
-
-After cloning the repo, run:
-
-```bash
-$ make install # install the dependencies of the project
-```
 
 ## Financial Contribution
 
