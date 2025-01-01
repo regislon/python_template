@@ -11,9 +11,7 @@ This template serves as a foundation for developing Python projects using  moder
 
 🧪 Testing structure using [Pytest](https://docs.pytest.org/en/latest/).
 
-✅ Code linter [Ruff](https://github.com/charliermarsh/ruff).
-
-✏️ Code formatter using [Black](https://github.com/psf/black).
+✅ Code linter and code formatter [Ruff](https://github.com/charliermarsh/ruff).
 
 🤝 Typing checking using [Mypy](https://mypy.readthedocs.io/en/stable/).
 
