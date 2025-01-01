@@ -11,20 +11,7 @@ jobs:
         if: success() || failure()
         uses: jpetrucciani/ruff-check@main
 
-      - name: Black
-        if: success() || failure()
-        uses: psf/black@stable
-        with:
-          options: "--check --verbose"
-          version: "22.8.0"
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.8"
-
-      - name: blackdoc
-        if: success() || failure()
-        run: |
-          pip install black[jupyter] blackdoc
-          blackdoc .
