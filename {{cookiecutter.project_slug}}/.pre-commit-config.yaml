@@ -11,12 +11,6 @@ repos:
       - id: ruff
         args: [--fix]
 
-  - repo: https://github.com/psf/black
-    rev: 22.8.0
-    hooks:
-    - id: black
-      language_version: python3
-
   - repo: https://github.com/keewis/blackdoc
     rev: v0.3.8
     hooks:
